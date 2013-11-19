@@ -1,4 +1,6 @@
 <?php
+	//file simpan dengan nama setSession.php
+
 	session_start();
 	$nama = "budi";
 	$_SESSION['nama']=$nama;
