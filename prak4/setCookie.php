@@ -1,4 +1,6 @@
 <?php
+
+	//disimpan dengan nama setCookie.php
 	$nama = "budi";
 	setcookie("Nama",$nama);
 

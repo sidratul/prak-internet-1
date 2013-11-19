@@ -4,6 +4,6 @@
 	$nama = "budi";
 
 	echo $nama;
-	echo "<br><a href='hal1.php'>ke Halaman berikutnya</a>";
+	echo "<br><a href='hal1.php?nama=".$nama."'>ke Halaman berikutnya</a>";
 ?>
 

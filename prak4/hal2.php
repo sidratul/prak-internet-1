@@ -1,5 +1,15 @@
 <?php
 	session_start();
 
-	echo $_SESSION['nama'];
+	//unset($_SESSION["nama"]);
+
+	session_destroy();
+
+	if(isset($_SESSION['nama'])){
+		echo $_SESSION['nama'];
+	}else{
+		echo "session dengan index nama belum di set<br>";
+	}
+	echo $_SESSION['pass'];
+
 ?>
