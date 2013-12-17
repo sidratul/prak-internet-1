@@ -24,7 +24,7 @@
 						$pesanheader="Pemesanan Makanan";
 						$isiinclude='pesan/pesan.php';
 					}else if($menu==2){
-						if (isset($_GET['ket'])) {
+						if (isset($_GET['hasil'])) {
 							$pesanheader="Hasil Bintang Segitiga";
 							$isiinclude="segitiga/proses-segitiga.php";
 						}else{
